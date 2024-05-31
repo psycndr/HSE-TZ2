@@ -12,10 +12,10 @@ public class NumberOperations {
             return;
         }
 
-        System.out.println("Минимальное число: " + _min(numbers));
-        System.out.println("Максимальное число: " + _max(numbers));
-        System.out.println("Сумма всех чисел: " + _sum(numbers));
-        System.out.println("Произведение всех чисел: " + _mult(numbers));
+        System.out.println("Минимальное число: " + getMin(numbers));
+        System.out.println("Максимальное число: " + getMax(numbers));
+        System.out.println("Сумма всех чисел: " + getSum(numbers));
+        System.out.println("Произведение всех чисел: " + getMult(numbers));
     }
 
     public static List<Integer> readNumbersFromFile(String fileName) {
@@ -46,7 +46,7 @@ public class NumberOperations {
         return numbers;
     }
 
-    public static int _min(List<Integer> numbers) {
+    public static int getMin(List<Integer> numbers) {
         int min = numbers.get(0);
         for (int number : numbers) {
             if (number < min) {
@@ -56,7 +56,7 @@ public class NumberOperations {
         return min;
     }
 
-    public static int _max(List<Integer> numbers) {
+    public static int getMax(List<Integer> numbers) {
         int max = numbers.get(0);
         for (int number : numbers) {
             if (number > max) {
@@ -66,7 +66,7 @@ public class NumberOperations {
         return max;
     }
 
-    public static long _sum(List<Integer> numbers) {
+    public static long getSum(List<Integer> numbers) {
         long sum = 0;
         for (int number : numbers) {
             sum += number;
@@ -74,7 +74,7 @@ public class NumberOperations {
         return sum;
     }
 
-    public static long _mult(List<Integer> numbers) {
+    public static long getMult(List<Integer> numbers) {
         long mult = 1;
         for (int number : numbers) {
             mult *= number;

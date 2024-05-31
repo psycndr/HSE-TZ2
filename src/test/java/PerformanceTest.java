@@ -17,7 +17,7 @@ public class PerformanceTest {
             long startTime, endTime;
             // Measure time for _sum
             startTime = System.currentTimeMillis();
-            NumberOperations._sum(numbers);
+            NumberOperations.getSum(numbers);
             endTime = System.currentTimeMillis();
             timesSum.add(endTime - startTime);
         }
