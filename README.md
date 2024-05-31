@@ -32,7 +32,7 @@
 
 ## Бейдж статуса тестов
 
-[![Java CI](https://github.com/psycndr/TZ2/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/your-repository-name/actions/workflows/ci.yml)
+[![Java CI](https://github.com/psycndr/TZ2/actions/workflows/ci.yml/badge.svg)](https://github.com/psycndr/TZ2/actions/workflows/ci.yml)
 
 ## Важное замечание
 
