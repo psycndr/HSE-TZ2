@@ -1,4 +1,4 @@
-name: Manual Test Run
+name: Test Run
 
 on:
   push:
