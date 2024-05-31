@@ -32,11 +32,11 @@
 
 ## Бейдж статуса тестов
 
-# [![Java CI](https://github.com/psycndr/TZ2/actions/workflows/manual-test-run.yml/badge.svg)](https://github.com/psycndr/TZ2/actions/workflows/manual-test-run.yml)
+- Тесты запускаются как по кнопке, так как и при любом комите.
+[![Java CI](https://github.com/psycndr/TZ2/actions/workflows/manual-test-run.yml/badge.svg)](https://github.com/psycndr/TZ2/actions/workflows/manual-test-run.yml)
 
 ## Важное замечание
 
-- Тесты запускаются как по кнопке, так как и при любом комите.
 - Программа предполагает, что файл `numbers.txt` находится в той же директории, что и исполняемый файл программы.
 - В случае возникновения ошибок при чтении файла или некорректных данных, программа выведет соответствующие сообщения об ошибке.
 
