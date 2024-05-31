@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+
+// Функция для записи данных об скорости выполнения всех функций
 public class PerformanceTest {
 
     public static void main(String[] args) {

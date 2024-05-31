@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d0a1268-55f8-45e4-a9d3-fa2cb8cb6439" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PerformanceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8d0a1268-55f8-45e4-a9d3-fa2cb8cb6439" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +43,7 @@
     "JUnit.NumberOperationsTest.testPerformance.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Merging master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/lev/TZ2",
     "onboarding.tips.debug.path": "C:/Users/levab/IdeaProjects/TZ2/src/main/java/org/example/Main.java",
