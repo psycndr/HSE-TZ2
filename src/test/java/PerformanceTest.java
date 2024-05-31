@@ -43,7 +43,7 @@ public class PerformanceTest {
             timesMult.add(endTime - startTime);
         }
 
-        writeResultsToFile(sizes, timesMin, timesMax, timesSum, timesMult, "results.csv");
+        writeResultsToFile(sizes, timesMin, timesMax, timesSum, timesMult, "src/test/output/results.csv");
     }
 
     private static void writeResultsToFile(int[] sizes, List<Long> timesMin, List<Long> timesMax, List<Long> timesSum, List<Long> timesMult, String fileName) {
