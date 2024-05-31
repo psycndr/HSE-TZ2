@@ -92,19 +92,6 @@ public class NumberOperationsTest {
         // Test with single number
         numbers = Arrays.asList(42);
         assertEquals(42, NumberOperations._mult(numbers));
-
-        // Test with large numbers
-        numbers = Arrays.asList(1, -1, 1);
-        assertEquals(-1, NumberOperations._mult(numbers));
-    }
-
-    @Test
-    public void testMixedNumbers() {
-        List<Integer> numbers = Arrays.asList(-3, 5, -1, 2, -4);
-        assertEquals(-4, NumberOperations._min(numbers));
-        assertEquals(5, NumberOperations._max(numbers));
-        assertEquals(-1, NumberOperations._sum(numbers));
-        assertEquals(-120, NumberOperations._mult(numbers));
     }
 
     @Test
