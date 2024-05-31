@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d0a1268-55f8-45e4-a9d3-fa2cb8cb6439" name="Changes" comment="" />
+    <list default="true" id="8d0a1268-55f8-45e4-a9d3-fa2cb8cb6439" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/NumberOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NumberOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PerformanceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumberOperationsTest">
+  <component name="RunManager" selected="Application.PerformanceTest">
     <configuration name="PerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PerformanceTest" />
       <module name="NumberOperations" />
@@ -119,8 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NumberOperationsTest" />
         <item itemvalue="Application.PerformanceTest" />
+        <item itemvalue="JUnit.NumberOperationsTest" />
         <item itemvalue="JUnit.NumberOperationsTest.testPerformance" />
         <item itemvalue="JUnit.NumberOperationsTest.testMixedNumbers" />
         <item itemvalue="JUnit.NumberOperationsTest.testMax" />

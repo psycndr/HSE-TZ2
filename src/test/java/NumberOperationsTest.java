@@ -1,7 +1,5 @@
 import org.junit.Test;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import static org.junit.Assert.*;

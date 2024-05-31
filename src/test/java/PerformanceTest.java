@@ -7,7 +7,7 @@ import java.util.Random;
 public class PerformanceTest {
 
     public static void main(String[] args) {
-        int[] sizes = {1000, 10000, 100000, 500000, 1000000, 5000000, 10000000, 50000000, 100000000, 250000000, 500000000};
+        int[] sizes = {10000, 100000, 500000, 1000000, 5000000, 10000000, 50000000, 100000000, 250000000, 500000000, 750000000, 1000000000};
         List<Long> timesMin = new ArrayList<>();
         List<Long> timesMax = new ArrayList<>();
         List<Long> timesSum = new ArrayList<>();
