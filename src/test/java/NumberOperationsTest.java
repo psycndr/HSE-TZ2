@@ -93,6 +93,14 @@ public class NumberOperationsTest {
     }
 
     @Test
+    public void testReadNumbersFromFile() {
+        // Test reading numbers from file
+        List<Integer> numbers = NumberOperations.readNumbersFromFile("test_numbers.txt");
+        List<Integer> excepted = Arrays.asList(1, 2, 3, 4, 5);
+        assertEquals(excepted, numbers);
+    }
+
+    @Test
     public void testPerformance() {
         int[] sizes = {1000, 10000, 100000, 500000, 1000000, 5000000, 10000000, 50000000, 100000000};
 
