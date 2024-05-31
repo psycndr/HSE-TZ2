@@ -32,7 +32,7 @@
 
 ## Бейдж статуса тестов
 
-[![Java CI](https://github.com/psycndr/TZ2/actions/workflows/manual-test-run.yml/badge.svg)](https://github.com/psycndr/TZ2/actions/workflows/manual-test-run.yml)
+# [![Java CI](https://github.com/psycndr/TZ2/actions/workflows/manual-test-run.yml/badge.svg)](https://github.com/psycndr/TZ2/actions/workflows/manual-test-run.yml)
 
 ## Важное замечание
 
