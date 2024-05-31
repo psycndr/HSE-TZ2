@@ -57,7 +57,7 @@ public class NumberOperations {
     }
 
     public static int _max(List<Integer> numbers) {
-        int max = numbers.getFirst();
+        int max = numbers.get(0);
         for (int number : numbers) {
             if (number > max) {
                 max = number;
