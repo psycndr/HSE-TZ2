@@ -46,6 +46,16 @@ jobs:
           name: test-results
           path: target/surefire-reports/
 
+
+      - name: Send success message to Telegram
+        if: success()
+        run: |
+          MESSAGE="All tests passed ^_^"
+          curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} -d text="$MESSAGE"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
       - name: Send test results to Telegram
         if: failure()
         run: |
