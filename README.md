@@ -46,7 +46,7 @@
 | 250000000             | 163                |
 | 500000000             | 346                |
 
-![Graph](https://github.com/psycndr/TZ2/assets/102012523/12756f29-1dbb-4add-8ac9-d98b1ee1d151)
+![Figure_1](https://github.com/psycndr/TZ2/assets/102012523/cf762b84-8d27-44cd-be6c-88cc7edbe98c)
 
 ## Бейдж статуса тестов
 
