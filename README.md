@@ -30,8 +30,13 @@
 
 ![Graph](https://github.com/psycndr/TZ2/assets/102012523/12756f29-1dbb-4add-8ac9-d98b1ee1d151)
 
+## Бейдж статуса тестов
+
+[![Java CI](https://github.com/psycndr/TZ2/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/your-repository-name/actions/workflows/ci.yml)
+
 ## Важное замечание
 
+- Тесты запускаются как по кнопке, так как и при любом комите.
 - Программа предполагает, что файл `numbers.txt` находится в той же директории, что и исполняемый файл программы.
 - В случае возникновения ошибок при чтении файла или некорректных данных, программа выведет соответствующие сообщения об ошибке.
 
