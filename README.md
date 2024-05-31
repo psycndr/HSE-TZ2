@@ -72,7 +72,19 @@
 - Запуск тестов.
 - Архивирование результатов тестов.
 - Отправка сообщения о успешном прохождении тестов в Telegram.
+Пример сообщения при успешном прохождении тестов: 
+> `All tests passed ^_^`
 - Отправка логов ошибок в Telegram при сбое.
+Пример сообщения при сбое: 
+> `Tests failed. Check the logs for details`
+```
+-------------------------------------------------------------------------------
+Test set: NumberOperationsTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.923 sec <<< FAILURE!
+testReadNumbersFromFile(NumberOperationsTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[1, 2, 3, 4, 5]> but was:<[1, 2, 3, 4, 6]>
+```
 
 ### Важное замечание
 Для работы процесса необходимо настроить секреты TELEGRAM_BOT_TOKEN и TELEGRAM_CHAT_ID в настройках репозитория GitHub, содержащих токен Telegram бота и идентификатор чата, куда будут отправляться сообщения.
