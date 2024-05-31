@@ -47,14 +47,19 @@ jobs:
           path: target/surefire-reports/
 
       - name: Send test results to Telegram
-        if: always()
+        if: failure()
         run: |
-          if [ "${{ job.status }}" == "success" ]; then
-            MESSAGE="All tests passed!"
-          else
-            MESSAGE="Tests failed. Check the logs for details."
-          fi
+          MESSAGE="Tests failed. Check the logs for details."
           curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} -d text="$MESSAGE"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Send error logs to Telegram
+        if: failure()
+        run: |
+          ERROR_LOGS=$(cat target/surefire-reports/*.txt)
+          curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} -d text="$ERROR_LOGS"
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
