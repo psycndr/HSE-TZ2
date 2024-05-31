@@ -87,7 +87,7 @@ public class NumberOperationsTest {
 
         // Test with mixed numbers
         numbers = Arrays.asList(-3, 5, -1, 2, -4);
-        assertEquals(120, NumberOperations._mult(numbers));
+        assertEquals(-120, NumberOperations._mult(numbers));
 
         // Test with single number
         numbers = Arrays.asList(42);
