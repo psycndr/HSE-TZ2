@@ -34,7 +34,7 @@
 
 - Тесты запускаются как по кнопке, так как и при любом комите.
 
-[![Java CI](https://github.com/psycndr/TZ2/actions/workflows/manual-test-run.yml/badge.svg)](https://github.com/psycndr/TZ2/actions/workflows/manual-test-run.yml)
+[![Java CI](https://github.com/psycndr/TZ2/actions/workflows/ci.yml/badge.svg)](https://github.com/psycndr/TZ2/actions/workflows/ci.yml)
 
 ## Важное замечание
 
