@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data = pd.read_csv('src/test/output/results.csv')
+data = pd.read_csv('src/main/output/results.csv')
 
 sizes = data['Size'].to_numpy()
 times_sum = data['TimeSum'].to_numpy()
